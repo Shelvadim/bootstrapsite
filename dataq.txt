@@ -1,0 +1,801 @@
+[{
+		"Q": "1. What is the meaning of a self - regulating profession:",
+		"A5": "1.B. is correct. The governing council must enforce the Act, regulations and bylaws. Ethics text, p.30.",
+		"A2": "B. Each province/territory has passed an Act to form an Association of professional engineers, which in turn regulate the profession",
+		"A1": "A. A group of people who review each other’s work for correctness",
+		"A3": "C. An association that ensure local bylaws are followed",
+		"A4": "D. Interprovincial teams that police the decisions of its members"
+	},
+	{
+		"Q": "2. Which of the following is NOT a professional designation in Canada?",
+		"A5": "2.D. is correct. Other professionals include pharmacists, architects, geoscientist, accountants, etc. Concepts of Professionalism http://www.apega.ca/nppe/PDF/index.html",
+		"A2": "B. Doctor",
+		"A1": "A. Engineer",
+		"A3": "C. Lawyer",
+		"A4": "D. Nurse"
+	},
+	{
+		"Q": "3. Intellectual property (IP) benefits society by giving people access to new property to improve our lives. What is the basic principle for regulating intellectual property:",
+		"A5": "3.B. Is correct. Encouraging creativity is the basic principle. Ethics text pg.181",
+		"A2": "B. To encourage creativity by protecting the rights of creative people and to provide an orderly way to exchange creative ideas.",
+		"A1": "A. To ensure that the idea is not copied and used illegally by foreign companies.",
+		"A3": "C. To allow inventors to profit from their designs and creativity.",
+		"A4": "D. To limit the amount of profit the creator can make on its product."
+	},
+	{
+		"Q": "4. Which of the following best describes Mill's Utilitarianism Ethical Theory called Virtue Ethics:",
+		"A5": "4.A. Is correct. B is Locke's theory, C is Kant's theory, D is Aristotle's theory. Ethics text pg. 219",
+		"A2": "B. All individuals are free and equal and each has rights.",
+		"A1": "A. An action is ethically correct if it produces the greatest benefit for the greatest number of people.",
+		"A3": "C. Each person has a duty to act in accordance with universal principles for everyone to follow.",
+		"A4": "D. Happiness is achieved by developing virtues, or qualities of character, through deduction and reason."
+	},
+	{
+		"Q": "5. If a practitioner is not co-operating in working with other professionals engaged on the project, the practitioner would be involved in a breach of:",
+		"A5": "5.D. Is correct. Co-operation with all parties is important on projects. Provincial/Territorial Code of Ethics.",
+		"A2": "B. professional misconduct",
+		"A1": "A. fidelity to public needs",
+		"A3": "C. secret commission",
+		"A4": "D. the code of ethics"
+	},
+	{
+		"Q": "6. While documenting your experience for a licence, you noticed that you have experience understanding the capabilities and limitations of operating producers,equipment reliability and safety odes.These would be best described as:",
+		"A5": "6.A. Is correct. Ethics text pg. 105",
+		"A2": "B. management of engineering/geoscience",
+		"A1": "A. practical experience",
+		"A3": "C. application of theory",
+		"A4": "D. communication skills"
+	},
+	{
+		"Q": "7. Which of the following best describes a conflict of interest?",
+		"A5": "7.C. Is correct. You cannot get paid to tender a project for the owner while getting paid for doing work for the winning bidder. Law text pg. 14.",
+		"A2": "B. performing work that does not test your technical abilities",
+		"A1": "A. accepting low value Christmas gifts from suppliers",
+		"A3": "C. receiving payment from two parties for a particular service",
+		"A4": "D. working on commission"
+	},
+	{
+		"Q": "8. Sally is a director of a dog biscuit company. As a director she has extra money and the end of the month she invests in a variety of companies.Last month she met with her financial planner and purchased some shares in a local Internet provider. One day, while performing her director duties at the biscuit company, she is asked to vote on the procurement of a new Internet provider, one of them being the company that she recently purchased shares in. The most appropriate action would be for her to:",
+		"A5": "8.A. Is correct. It is important at any level to disclose any conflicts of interest. Law text - chapter 3.",
+		"A2": "B. mention the ownership and vote",
+		"A1": "A. declare the conflict of interest and not vote",
+		"A3": "C. suggest that they select a new Internet provider",
+		"A4": "D. vote since it is a small contract"
+	},
+	{
+		"Q": "9. The purpose of a construction, builders', and mechanics' lien is to:",
+		"A5": "9.C. Is correct. The lien gives an incentive to the workers to work and to owner to pay. Law text pg. 203-4.",
+		"A2": "B. enable engineers and geoscientists to finish projects",
+		"A1": "A. allow sub trades to make money",
+		"A3": "C. ensure that the work gets done and workers get paid",
+		"A4": "D. let owners holdback money"
+	},
+	{
+		"Q": "10. Force majeure, a common contract clause in the Civil Code in Quebec, essentially:",
+		"A5": "10.B. Is correct. Law text pg. 52, 218, 220.",
+		"A2": "B. frees both parties from liability in the instance of an extraordinary event beyond the control of the parties",
+		"A1": "A. allows a plaintiff to sue the same defendant twice",
+		"A3": "C. grants a property owner a certain level of compensation when an earthquake damages its property",
+		"A4": "D. removes one party from liability when its acts negligent with good reason"
+	},
+	{
+		"Q": "11. After working as a professional for a number of years you decide to start a new business with one of your coworkers. Your coworker wants to inject money into the business but does not want to participate in running the business. This type of arrangement would be called:",
+		"A5": "11.C. Is correct. By not being involved in the day-to-day operations, the coworker is limited in liability. Ethics text pg. 128.",
+		"A2": "B. general partnership",
+		"A1": "A. corporation",
+		"A3": "C. limited partnership",
+		"A4": "D. sole proprietorship"
+	},
+	{
+		"Q": "12. Internet threats such as hackers, spammers, or vandals can pose a threat to the businesses of professional engineers and geoscientists. To combat these threats, the following two methods can be used:",
+		"A5": "12.D. Is correct. The Firewall will act as a computer's gates and antivirus software can detect and remove viruses. Ethics text pg. 172-173",
+		"A2": "B. Back-up hardware & firewall",
+		"A1": "A. Firewall & cloud computing",
+		"A3": "C. Antivirus software & alert employees",
+		"A4": "D. Firewall & antivirus software"
+	},
+	{
+		"Q": "13. An indemnity refers to:",
+		"A5": "13.A. Is correct. Law text pg. 70",
+		"A2": "B. granting the provinces certain exclusive powers",
+		"A1": "A. an agreement by a party to bear the financial loss of another party for a specified event",
+		"A3": "C. the courts applying legal principles established in similar previous court decisions ",
+		"A4": "D. the party appealing the decision of civil litigation"
+	},
+	{
+		"Q": "14. Each Association will enforce its Act. Enforcement refers to:",
+		"A5": "14.D. Is correct. Enforcement is for non-members who claim to be a professional. Ethics text pg. 50",
+		"A2": "B. prosecuting members who have violated the Code of Conduct",
+		"A1": "A. charging a professional with a criminal act.",
+		"A3": "C. prosecuting members who have committed Professional Misconduct",
+		"A4": "D. prosecuting unlicenced individuals who are practicing without a licence"
+	},
+	{
+		"Q": "15. Fixed-price contract, lump sum contract or stipulated price contract all refer to a contact in which goods and services are provided for a lump sum amount. The most common form of standard contract for this type is the CCDC 2. CCDC refers to:",
+		"A5": "15.D. is correct. Law text p. 115.",
+		"A2": "B. Canada Contractor & Designer Council",
+		"A1": "A. Canada Contracts & Documents Council",
+		"A3": "C. Canadian Contract Document Committee",
+		"A4": "D. Canadian Construction Document Committee"
+	},
+	{
+		"Q": "16. If final drawings cover more than one engineering or geoscience discipline, how many people should seal the drawing?",
+		"A5": "16.D. Is correct. Ethics text pg. 115.",
+		"A2": "B. Up to five.",
+		"A1": "A. One.",
+		"A3": "C. Everyone involved in the project should seal.",
+		"A4": "D. One for the approving professional and the professional for each discipline."
+	},
+	{
+		"Q": "17. ____________________ is a process and project delivery method through which an owner contracts directly with the trades rather than of hiring a general contractor.",
+		"A5": "17.B. Is correct. Law text pg. 108.",
+		"A2": "B. Construction management",
+		"A1": "A. Build-finance",
+		"A3": "C. Design-build",
+		"A4": "D. Integrated project delivery"
+	},
+	{
+		"Q": "18. Engineers or geoscientists may find themselves as an expert witness in court. It is important for the professional to:",
+		"A5": "18.D. Is correct. Professionals should not speak to facts that are outside their area of expertise. Law text pg. 162-3.",
+		"A2": "B. ensure the jury thoroughly understands all technical matters",
+		"A1": "A. avoid cross-examination",
+		"A3": "C. express opinions about the case",
+		"A4": "D. restrict testimony to areas of expertise"
+	},
+	{
+		"Q": "19. Jump Inc. is planning on manufacturing the finest trampolines in all of Canada for professional gymnasts. Prior to putting its trampolines on store shelves, the company consults the Sale of Goods Act which defines certain conditions and warranties that a product must satisfy to protect the general public. Two of these include:",
+		"A5": "19.D. Is correct. Ethics text pg. 144.",
+		"A2": "B. reliability & affordability",
+		"A1": "A. quality & extreme durability",
+		"A3": "C. safety & affordability",
+		"A4": "D. safety & quality"
+	},
+	{
+		"Q": "20. Theory X style of management argues that:",
+		"A5": "20.A. Is correct. Remember the sign of an 'X' is negative so the viewpoint is also negative towards the workplace. Ethics text pg. 118.",
+		"A2": "B. employees should be allowed to bring their dogs to work",
+		"A1": "A. employees dislike work, thus they need to be closely monitored",
+		"A3": "C. managers must be encourage employees with praise",
+		"A4": "D. managers should let employees make their own schedules"
+	},
+	{
+		"Q": "21. If a practitioner reports dishonest or unethical conduct by another practitioner, most Provincial and Territorial Code of Ethics would say that he/she is:",
+		"A5": "21.A. Is correct. A practitione  shall maintain the honour and integrity of the practitioner’s profession and without fear or favour expose before the proper tribunals unprofessional, dishonest r unethical conduct by any other practitioner. Provincial/Territorial Code of Ethics.",
+		"A2": "B. not acting towards other practitioners with courtesy and good faith.",
+		"A1": "A. maintaining the honour and integrity of the practitioner's profession.",
+		"A3": "C. not devoted to professional integrity.",
+		"A4": "D. trying to injure the reputation of the practitioner."
+	},
+	{
+		"Q": "22. Common law, also known as judge made law, is:",
+		"A5": "22.B. Is correct. Law text pg. 4.",
+		"A2": "B. court decisions establishing legal principles",
+		"A1": "A. a judge using the facts of a case to come to a decision",
+		"A3": "C. when a judge overrules a law and makes up his/her own version",
+		"A4": "D. when judges enforce bylaws in a court of law"
+	},
+	{
+		"Q": "23. Prior to documents being released to anyone outside the organization, the practitioner should review it to ensure accepted practice. This will ensure that the document is:",
+		"A5": "23.A. Is correct. Accepted practice will ensure the proper codes, standards, guidelines and theory is being applied. Ethics text pg. 113",
+		"A2": "B. formatted correctly",
+		"A1": "A. based on current industry codes/standards",
+		"A3": "C. technically perfect",
+		"A4": "D. the latest version and sealed"
+	},
+	{
+		"Q": "24. You are a licensed practitioner and your friend, with simply a relevant undergraduate degree, asks you to check, sign, and seal a drawing to meet local by-laws. She assures you that it has already been checked and the drawing is technically sound. As the licensed practitioner, you should:",
+		"A5": "24.A. Is correct. Ethics text pg. 115",
+		"A2": "B. review and seal but make it clear that you are accepting no responsibility for it",
+		"A1": "A. refuse unless you do a proper review and are willing to accept responsibility",
+		"A3": "C. request payment for the work",
+		"A4": "D. stamp it right away since you trust your friend's work"
+	},
+	{
+		"Q": "25. A professional should resort to whistleblowing when he/she believes an organization is undertaking unsafe, illegal or unethical practices and go public with the information after no success with:",
+		"A5": "25.C. Is correct. It is best to quickly try and resolve the issue internally if possible. Ethics text pg. 319",
+		"A2": "B. showing the organization the consequences of its actions",
+		"A1": "A. attempting to change the culture of the business",
+		"A3": "C. trying to correct the situation through internal channels",
+		"A4": "D. writing a letter to the organization's CEO"
+	},
+	{
+		"Q": "26. A director's fiduciary duty to his/her company is to:",
+		"A5": "26.B. Is correct. Law text pg. 39.",
+		"A2": "B. act honest, prudent and in good faith to the corporation",
+		"A1": "A. act as if the public was watching him/her",
+		"A3": "C. limit the liability and risk exposure",
+		"A4": "D. maximize the profit of the company"
+	},
+	{
+		"Q": "27. Nick is a Professional Engineer who is ready to seal his first drawings. The other engineers in his office seal drawings by hand, but he want to save time by sealing his drawing electronically. Nick checks with his local Association and finds that that his association along with most Provincial and Territorial Associations in Canada believe that electronically sealing a drawing is _________ sealing a document by hand.",
+		"A5": "27.A. Is correct. As more and more work is done online and paperless, the Associations have come to accept electronic sealing as equivalent to hand stamping. Ethics text pg. 116.",
+		"A2": "B. better than",
+		"A1": "A. as good as",
+		"A3": "C. more secure than",
+		"A4": "D. not as good as"
+	},
+	{
+		"Q": "28. The five elements of an enforceable contract are: an offer made and accepted,mutual intent, consideration, capacity and:",
+		"A5": "28.D. Is correct. Law text pg. 44.",
+		"A2": "B. both parties increase profitability",
+		"A1": "A. board approval",
+		"A3": "C. clause for cancellation",
+		"A4": "D. lawful purpose"
+	},
+	{
+		"Q": "29. The two items that must accompany the professionals seal on a drawing or report are:",
+		"A5": "29.A. Is correct. Ethics text pg. 112.",
+		"A2": "B. printed name and signature",
+		"A1": "A. date and signature",
+		"A3": "C. province number and signature",
+		"A4": "D. version number and date"
+	},
+	{
+		"Q": "30. One way that the Civil Code of Quebec differs from Common Law is where the Civil Code:",
+		"A5": "30.C. Is correct. Law text pg. 4.",
+		"A2": "B. doesn't allow citizens to sue members of parliament",
+		"A1": "A. allows lawyers to practice both civil and business law",
+		"A3": "C. doesn't place as much importance on case precedent",
+		"A4": "D. gives more authority to juries"
+	},
+	{
+		"Q": "31. Not all marks can become trademarks. Which one of the following can be a trademark:",
+		"A5": "31.A. Is correct. A Guide to Trade-Marks pg. 4-6.",
+		"A2": "B. clearly descriptive marks",
+		"A1": "A. a mark that distinguishes a product from its competitors",
+		"A3": "C. names and surnames",
+		"A4": "D. words that denote a geographical location"
+	},
+	{
+		"Q": "32. If you are at work and you believe that the working conditions are dangerous to your health and safety, the Occupational Health and Safety Act would state that you have the right to:",
+		"A5": "32.C. Is correct. Law text pg. 248.",
+		"A2": "B. demand higher compensation",
+		"A1": "A. correction the situation yourself",
+		"A3": "C. refuse work",
+		"A4": "D. report your boss"
+	},
+	{
+		"Q": "33. You are working on drawings that require about 20 hours more of review. These drawing are nearing a deadline. A client urges you, the practitioner, to send final drawings right away so he can give it to the contractor to start construction. The best course of action for you would be to:",
+		"A5": "33.C. Is correct. Drawing verification takes time and it is important to ensure a diligent job. Ethics text pg. 113",
+		"A2": "B. do a quick review and seal the drawings then issue them with the word 'Draft' written across them.",
+		"A1": "A. bring in other knowledgeable practitioners to finish the drawings and do a final review to meet the client’s deadline.",
+		"A3": "C. let the client know that it is a top priority but send the drawings only once they have been reviewed properly.",
+		"A4": "D. redesign the drawings to make them simpler and then send them to your client right away."
+	},
+	{
+		"Q": "34. Tort law is a private or civil wrong or injury, one that involves _______ and that may arrive independently of contract.",
+		"A5": "34.B. Is correct. Law text pg. 6.",
+		"A2": "B. negligence",
+		"A1": "A. neglect",
+		"A3": "C. intention",
+		"A4": "D. purpose"
+	},
+	{
+		"Q": "35. Which of the following would NOT be grounds for a professional employee to blow the whistle if he/she found their employer engaging in?",
+		"A5": "35.C. Is correct. A company should hide its trade secrets. E.g. Coca-coal's formula for soda. Ethics text pg. 244 (whistleblowing).",
+		"A2": "B. fraud",
+		"A1": "A. destructive environmental practices",
+		"A3": "C. hiding trade secrets",
+		"A4": "D. theft"
+	},
+	{
+		"Q": "36. Arbitration of disputes during projects is common. The appointment of a threeperson arbitration board is usually done by:",
+		"A5": "36.C. Is correct. Law text pg. 159",
+		"A2": "B. each party interviews all candidates similar to a jury selection",
+		"A1": "A. a court appointing all three",
+		"A3": "C. each side selects one arbitrator, and the two representatives agreeing on the third ",
+		"A4": "D. names are drawn by a 3rd party"
+	},
+	{
+		"Q": "37. Secret commission refers to:",
+		"A5": "37.C. Is correct. Secret commissions can be offered to engineers and geoscientists as they are often involved in awarding projects to companies that may be looking to increase their chances illegally. Ethics text pg. 179-180, 246",
+		"A2": "B. a secret engineering authority that reviews engineers that have violated the Act.",
+		"A1": "A. a group of anonymous individuals that vote on revisions to engineering and geoscience codes of conduct.",
+		"A3": "C. giving or receiving a bribe or kickback to show favour or disfavor to a person or company.",
+		"A4": "D. not disclosing your pay structure to your client."
+	},
+	{
+		"Q": "38. Every commercial software may have flaws, but errors are most likely introduced by the user. Which of the following is NOT a user error?",
+		"A5": "38.C. Is correct. Validation testing is something the user should do prior to using software and is not a type of error. Ethics text pg. 175",
+		"A2": "B. not understanding the output display",
+		"A1": "A. applying the program to the wrong type of problem",
+		"A3": "C. performing validation testing",
+		"A4": "D. using incorrect units for data input"
+	},
+	{
+		"Q": "39. Susan has been hired by an owner to manager the contract administration of a large construction project. Susan is tasked with writing the contract between the owner and the contractor. When Susan begins to define how disputes will be handled, she specifies that arbitration will be used instead of litigation since arbitration on construction projects is often:",
+		"A5": "39.B. Is correct. Arbitration is often less costly, less public and less time consuming. Law text p. 159",
+		"A2": "B. less costly",
+		"A1": "A. established after the project starts",
+		"A3": "C. more public",
+		"A4": "D. more time consuming"
+	},
+	{
+		"Q": "40. In order for your invention to be patentable, it must demonstrate novelty, ingenuity and:",
+		"A5": "40.D. Is correct. It must work and have a useful function. A Guide to Patents pg. 5",
+		"A2": "B. durability",
+		"A1": "A. accountability",
+		"A3": "C. technology",
+		"A4": "D. utility"
+	},
+	{
+		"Q": "41. Most Provincial and Territorial Acts would suggest that the practitioner has a Duty to Inform their employer of the _____________ to be expected from a deviation in the proposed work or if the practitioners judgment is overruled by a non-technical authority.",
+		"A5": "41.A. Is correct. Sometimes a P.Eng or P.Geo may get overruled in decision making. It is then the responsibility of the professional to advise of the consequences of the deviation. Provincial/Territorial Act (Professional Misconduct)",
+		"A2": "B. opportunities",
+		"A1": "A. consequences",
+		"A3": "C. rewards",
+		"A4": "D. weaknesses"
+	},
+	{
+		"Q": "42. In order for a tort action to be realized, three tests must be satisfied. Which is NOT one of them?",
+		"A5": "42.C. Is correct. A contract between parties is not a requirement. Law text.",
+		"A2": "B. the defendant's conduct caused the injury to the plaintiff",
+		"A1": "A. the defendant breached a duty of care by his/her conduct",
+		"A3": "C. the defendant must be in contract with the plaintiff",
+		"A4": "D. the defendant owed the plaintiff a duty of care"
+	},
+	{
+		"Q": "43. In all provinces, workers' compensation payments are calculated on a _________basis and vary depending on the _________ of the employer's business.",
+		"A5": "43.B. is correct. The number of employees and how risky the business services or products that it provides will determine the workers compensation payments. Law text p. 252.",
+		"A2": "B. per-employee, risk",
+		"A1": "A. formula, tax bracket",
+		"A3": "C. temporary, type",
+		"A4": "D. unique, age"
+	},
+	{
+		"Q": "44. Oil and natural gas are essential to our lifestyle, yet play a role in climate change.The term Peak Oil refers to:",
+		"A5": "44.B. Is correct. Ethics text pg. 371-2",
+		"A2": "B. when oil production reaches it maximum, after which it will begin to decline",
+		"A1": "A. when a country begins exporting more oil than it imports",
+		"A3": "C. the historical high price of oil per barrel",
+		"A4": "D. the maximum amount of oil that can be extracted in a single day"
+	},
+	{
+		"Q": "45. Which legal term describes an action that the courts can use to prevent a party from enforcing the strict wording of the contract when that party has extended a gratuitous promise that puts the other party at a disadvantage?",
+		"A5": "45.A. Is correct. Law text pg. 52",
+		"A2": "B. governing law",
+		"A1": "A. estoppel",
+		"A3": "C. irrevocable offer",
+		"A4": "D. the burden of proof"
+	},
+	{
+		"Q": "46. Engineers or geoscientists may be asked to be a witness in court because:",
+		"A5": "46.A. Is correct. One of the parties is looking to support its facts backed by a credible source. Law text pg. 162.",
+		"A2": "B. the judge is confused with the technical information",
+		"A1": "A. one party wants to add expert credibility to their case",
+		"A3": "C. the jury has requested a professional",
+		"A4": "D. it is necessary to ensure that the jury understands all technical information that may be related to the case"
+	},
+	{
+		"Q": "47. In Mach 1989, a disaster caused significant damage to the Alaska shoreline. Shortly thereafter, the Coalition for Environmentally Responsible Economies (Ceres) formed to promote environmental and other public issues. This 1989 disaster is known as:",
+		"A5": "47.B. Is correct. Ethics text pg. 316 for additional information on Exxon oil spill and Ceres.",
+		"A2": "B. Exxon Valdez oil spill",
+		"A1": "A. Chernobyl",
+		"A3": "C. Sevesso Dioxin Cloud",
+		"A4": "D. Three Mile Island"
+	},
+	{
+		"Q": "48. To protect against negligent work, a practitioner can obtain liability insurance which is often referred to as:",
+		"A5": "48.B. Is correct. The others are real types of insurance but relate to other topics. Ethics text pg. 187.",
+		"A2": "B. errors and omissions insurance",
+		"A1": "A. casualty insurance",
+		"A3": "C. perpetual insurance",
+		"A4": "D. reinsurance"
+	},
+	{
+		"Q": "49. In Canada, the losing party of a lawsuit is usually required to pay a percentage of the other party's legal costs. This rule is a strong deterrent against:",
+		"A5": "49.C. is correct. By contrast, the general rule in the USA is that each party bears its own legal costs. The result is many more lawsuits south of our border. Law text pg. 157.",
+		"A2": "B. counterclaims",
+		"A1": "A. arbitration",
+		"A3": "C. false claims",
+		"A4": "D. pleadings"
+	},
+	{
+		"Q": "50. Regarding computer programs, a dummy run refers to:",
+		"A5": "50.D. Is correct. Ethics text pg. 176",
+		"A2": "B. independent theoretical checks",
+		"A1": "A. checking the program for virus’s",
+		"A3": "C. reading the program manual prior to using the program",
+		"A4": "D. running a basic check on the program's computation to get known answers"
+	},
+	{
+		"Q": "51. Which code states that every person has a right not be discriminated against (in terms of ethnic origin, handicap, etc)?",
+		"A5": "51.C. Is correct. Law text pg. 244",
+		"A2": "B. Human Dignity Code",
+		"A1": "A. Freedom of Employment Code",
+		"A3": "C. Human Rights Code",
+		"A4": "D. Workplace Equality Code"
+	},
+	{
+		"Q": "52. Communication skills are fundamental to being a successful practitioner and are required when applying for a licence. As a practitioner you communicate in a variety of ways. For instance, sealing a drawing communicates that you:",
+		"A5": "52.B. Is correct. Ethics text pg. 49",
+		"A2": "B. have checked, reviewed and take responsibility for the work",
+		"A1": "A. have confirmed the drawing exceeds codes and standards",
+		"A3": "C. have liability insurance",
+		"A4": "D. may need to make edits later"
+	},
+	{
+		"Q": "53. Duress refers to:",
+		"A5": "53.A. Is correct. Contracts signed under duress are not valid. Law text.",
+		"A2": "B. the stress of working on legal matters",
+		"A1": "A. Persuading a party to enter into a contract by threatened or actual violence or imprisonment",
+		"A3": "C. the country where the contract will be valid in",
+		"A4": "D. the duration of time for which a contract offer is valid"
+	},
+	{
+		"Q": "54. Which of the following is NOT an example of a Federal Government Act relating to the environment?",
+		"A5": "54.D. Is correct. The Kyoto Protocol is a United Nations Framework rather than a Federal environmental act. Ethics text pg. 313",
+		"A2": "B. Canadian Environmental Protection Act",
+		"A1": "A. Canadian Environmental Assessment Act",
+		"A3": "C. Fisheries Act",
+		"A4": "D. Kyoto Protocol"
+	},
+	{
+		"Q": "55. Who can file a construction, builders', and mechanics' lien?",
+		"A5": "55.A. Is correct. Anyone making improvements can file. Law text pg. 203.",
+		"A2": "B. only the general contractor",
+		"A1": "A. anyone who makes improvement to the property",
+		"A3": "C. only the sub trades to the general contractor",
+		"A4": "D. only the construction designer"
+	},
+	{
+		"Q": "56. The rule of contra proferentem refers to a contract term that is:",
+		"A5": "56.A. Is correct. Law text pg. 56",
+		"A2": "B. agreed verbally but not included in the contract.",
+		"A1": "A. ambiguous will be interpreted against the party that drafted that provision.",
+		"A3": "C. implied by previous contracts between parties.",
+		"A4": "D. unfair will be invalid and thrown out by the courts."
+	},
+	{
+		"Q": "57. Continuing professional development (CPD) is mandatory in some Associations and voluntary with others. Since members submit their results electronically, a practice review is done to ensure that these self-assessments are:",
+		"A5": "57.C. Is correct. Ethics text pg. 66",
+		"A2": "B. complete",
+		"A1": "A. benchmarked",
+		"A3": "C. fair and honest",
+		"A4": "D. up-to-date"
+	},
+	{
+		"Q": "58. How long does a copyright generally last?",
+		"A5": "58.D. Is correct. A Guide to Copyrights",
+		"A2": "B. 30 years, if the author keeps using it in publications",
+		"A1": "A. 20 years from date of copyright",
+		"A3": "C. 50 years",
+		"A4": "D. life of the author + 50 years"
+	},
+	{
+		"Q": "59. According to most Provincial or Territorial Acts, incompetence refers to a lack of knowledge, skills, or _________ that demonstrates the member is unfit to carry out duties as a professional.",
+		"A5": "59.C. Is correct. Ethics text pg. 73",
+		"A2": "B. character",
+		"A1": "A. ability",
+		"A3": "C. judgment",
+		"A4": "D. understanding"
+	},
+	{
+		"Q": "60. Should the scope of work change on a project, a change order needs to be initiated to update the contract. Changes that increase the contract price are known as _____, while changes that decrease the contract price are called _______.",
+		"A5": "60.D. is correct. Extras are increases in price and credits are decreases in price. Change orders should be expected on any size project for a number of reasons (e.g. Owner may wish to improve the quality of the flooring; contractor may notice an error in the design; the design might have assumed that the ceiling tiles were asbestos free) Law text p. 71.",
+		"A2": "B. change notices; change orders",
+		"A1": "A. change directives; contemplated changes",
+		"A3": "C. debts; credits",
+		"A4": "D. extras; credits"
+	},
+	{
+		"Q": "61. The CEAB evaluates undergraduate engineering programs offered by Canadian universities. The CEAB stands for:",
+		"A5": "61.A. Is correct. Ethics text pg. 51.",
+		"A2": "B. Centre for Engineers Accreditation Board",
+		"A1": "A. Canadian Engineering Accreditation Board",
+		"A3": "C. Certified Engineering Accreditation Board",
+		"A4": "D. Current Engineering Accolade Board"
+	},
+	{
+		"Q": "62. The Occupational Health and Safety (OHS) laws states that each Canadian is entitled to:",
+		"A5": "62.B. Is correct. Ethics text pg. 157.",
+		"A2": "B. a safe and healthy work environment and that the employer must provide one",
+		"A1": "A. a hard hat and work boots",
+		"A3": "C. fall protection and WHIMIS training",
+		"A4": "D. stop working outdoors if temperatures exceed 30 degree Celsius"
+	},
+	{
+		"Q": "63. Top University hired Amazing Disaster Clean Up (ADCU) to clean a basement of a building that was flooded. ADCU quickly went to work without a contract or without agreeing on payment terms since the situation required immediate attention. Upon finishing up the work ADCU sent Top University an invoice for its work. Top University refused to pay on the basis that a contract had not been established so there was no legal obligation to make payment. ADCU took Top University to court. The court ordered Top University to pay ADCU the full invoice amount since it was deemed reasonable for the time spend and materials supplied. Which legal principle did the court enforce?",
+		"A5": "63.B. is correct. Contracts will not always be in place but if one party has received the benefit of work, the law stipulates that that party should have to pay something for those services. This is the principle of quantum meruit. Law text p. 53-54.",
+		"A2": "B. quantum meruit",
+		"A1": "A. dispute resolution provision",
+		"A3": "C. riparian rights",
+		"A4": "D. wrap-up policy"
+	},
+	{
+		"Q": "64. Justin, P.Eng, is the senior environmental engineering for a motor oil company. His company is under investigation for an environmental offence for illegal tree removal related to the expansion of its factory warehouse. In preparation of his company's defense, Justin collects a binder of all of the environmental policies, meetings and programs put in place to mitigate environmental impact related to business activities and the recent tree removal. By showing that his company has taken all reasonable steps to satisfy statutory obligations, Justin is demonstrating:",
+		"A5": "64.B. is correct. When environmental offences are strict liability offences, the only defense is due diligence. Law text pg. 262.",
+		"A2": "B. due diligence",
+		"A1": "A. contra proferentem",
+		"A3": "C. estoppel",
+		"A4": "D. positive restrictive covenant"
+	},
+	{
+		"Q": "65. National mobility agreements have been established to allow professionals to work in multiple provinces. Which of the following is NOT a condition a professional must satisfy in order to work in another province?",
+		"A5": "65.C. Is correct. Ethics text pg. 46.",
+		"A2": "B. has not been disciplined (either past or present)",
+		"A1": "A. agrees to meet the rules for continuing competence in the new Association",
+		"A3": "C. must present two original designs to the new Association and answer technical questions",
+		"A4": "D. permits the Associations to exchange files"
+	},
+	{
+		"Q": "66. A member of the public is claiming to be a Sound Engineer to describe their experience in sound editing. However, they are not a licensed professional. This individual could be subject to _________ by the local Association.",
+		"A5": "66.C. Is correct. Ethics text pg. 50.",
+		"A2": "B. Discipline",
+		"A1": "A. Arbitration",
+		"A3": "C. Enforcement",
+		"A4": "D. Tort"
+	},
+	{
+		"Q": "67. What is the purpose of a corporation obtaining a Permit to Practice or a Certificate of Authorization?",
+		"A5": "67.A. Is correct. Ethics text pg. 47.",
+		"A2": "B. to enable professionals to charge higher rates for their services",
+		"A1": "A. to demonstrate to the public that the firm is competent",
+		"A3": "C. to ensure that corporations are registered with an Association",
+		"A4": "D. to prevent clients of the corporation from suing the Association"
+	},
+	{
+		"Q": "68. When the law specifies a standard, such as the National Building Code of Canada, the practitioner must find and follow it. The following is NOT a result of following standards:",
+		"A5": "68.B. Is correct. Standards are to ensure quality or uniformity but do not control architectural features like the appearance of a house. Ethics text pg. 155-156.",
+		"A2": "B. houses look the same in a given neighbourhood",
+		"A1": "A. buildings are of adequate quality",
+		"A3": "C. public spaces are suitable for disabled access",
+		"A4": "D. warning and danger signs are appropriately sized and worded"
+	},
+	{
+		"Q": "69. Compensation for consultants may depend on the client or project time. Per Diem compensation type means the consultant will be paid:",
+		"A5": "69.A. Is correct. Per diem is best when the scope cannot be well defined. Ethics text pg. 132.",
+		"A2": "B. a fee based on a percentage of project costs",
+		"A1": "A. a daily rate",
+		"A3": "C. a lump sum",
+		"A4": "D. each day in cash"
+	},
+	{
+		"Q": "70. Peter, a P.Geo, is asked by his boss to purchase drafting software. Peter knows a friend that can give him an illegal copy for free. Peter, hesitates to take the pirated software because it is UNETHICAL to:",
+		"A5": "70.B. Is correct. Using illegal software can also be a breach of contract between your company and your clients. Ethics text pg. 178.",
+		"A2": "B. Use illegal software which violates the Copyright Act",
+		"A1": "A. Take gifts from friends.",
+		"A3": "C. Install an illegal program that might contain a virus.",
+		"A4": "D. Use a product that has no customer support."
+	},
+	{
+		"Q": "71. In order to design for safety, a designer must use up-to-date information. However, in the rare instances that there is new information (e.g. recent failures or accidents), low industry standards, no code exists (for cutting edge designs), a designer must:",
+		"A5": "71.A. Is correct. Ethics text pg. 146-8.",
+		"A2": "B. Make up a new code.",
+		"A1": "A. Deviate from the code.",
+		"A3": "C. Use a code from another country that best applies.",
+		"A4": "D. Work with the local regulation agency to develop a new or improved code."
+	},
+	{
+		"Q": "72. If a practitioner recommends that his/her employer should use the services of a business that his cousin owns, The Code of Ethics might not look too favorable on this action UNLESS he/she:",
+		"A5": "72.B. Is correct. Answer D is not necessarily acceptable since his cousin's business may not be qualified to bid. Provincial/Territorial Code of Ethics.",
+		"A2": "B. Discloses the conflict of interest.",
+		"A1": "A. Receives a kickback from his cousin.",
+		"A3": "C. Provides his employer a steep discount.",
+		"A4": "D. Has a public tender to get other bids."
+	},
+	{
+		"Q": "73. Which of the following best describes Aristotle's Ethical Theory called Virtue Ethics: ",
+		"A5": "73.B. Is correct. A is Locke's theory, C is Kant's theory, D is Mill's theory. Ethics text pg. 219.",
+		"A2": "B. Happiness is achieved by developing virtues, or qualities of character, through deduction and reason.",
+		"A1": "A. All individuals are free and equal and each has rights.",
+		"A3": "C. Each person has a duty to act in accordance with universal principles for everyone to follow.",
+		"A4": "D. An action is ethically correct if it produces the greatest benefit for the greatest number of people."
+	},
+	{
+		"Q": "74. A general principle of the Code of Ethics across Provinces and Territories, is the Duty to Society, which means a P.Eng or P.Geo must:",
+		"A5": "74.B. Is correct. Public safety, health and welfare is the highest priority. Ethics text pg. 227.",
+		"A2": "B. Value his/her duty to the public as paramount.",
+		"A1": "A. Disclose all information about hazardous materials to the public.",
+		"A3": "C. Keep up to date with technical training.",
+		"A4": "D. Ensure construction sites are safe from danger."
+	},
+	{
+		"Q": "75. Ethics is one of the four branches of philosophy. Which of the following is NOT a philosophy branch?",
+		"A5": "75.A. Is correct. Aesthetics is not a branch of philosophy. Ethics text pg. 213-214.",
+		"A2": "B. Epistemology - the study of knowledge",
+		"A1": "A. Aesthetics - the study of art and beauty",
+		"A3": "C. Logic - The study of rules and reasoning",
+		"A4": "D. Metaphysics - the study of existence and reality"
+	},
+	{
+		"Q": "76. According to the Charter of Rights and Freedoms, professional decisions must be independent of any specific:",
+		"A5": "76.C. Is correct. Ethics text pg. 236",
+		"A2": "B. utilitarian bias",
+		"A1": "A. conflict of interest",
+		"A3": "C. religion",
+		"A4": "D. political party"
+	},
+	{
+		"Q": "77. A misrepresentation is a false statement that can surface when developing a contract as one party tries to persuade another to enter into a contract for its products or services. There are three types of misrepresentations.Which of the following is NOT a type of misrepresentation?",
+		"A5": "77.D. is correct. A, B, and C are all types of misrepresentation. Law text p.139.",
+		"A2": "B. negligent",
+		"A1": "A. innocent",
+		"A3": "C. fraudulent",
+		"A4": "D. true"
+	},
+	{
+		"Q": "78. What does the Code of Ethics say about the Duty to Colleagues?",
+		"A5": "78.A. Is correct. Provincial/Territorial Code of Ethics.",
+		"A2": "B. Treat your colleagues as you would like to be treated.",
+		"A1": "A. Act with courtesy and good will towards colleagues.",
+		"A3": "C. There is no such section or discussion about the Duty to Colleagues.",
+		"A4": "D. Show civility to your colleagues but you must report them if they act negligent."
+	},
+	{
+		"Q": "79. Which of the following matters would not be an acceptable situation to terminate an employee, without notice or severance pay?",
+		"A5": "79.D. Is correct. There are a number of legal situations that give an employee just cause to terminate an employee without notice or severance. Pregnancy leave is not one of them. Ethics text pg. 267",
+		"A2": "B. Theft",
+		"A1": "A. Habitual neglect of duty",
+		"A3": "C. Permanent illness",
+		"A4": "D. Pregnancy leave"
+	},
+	{
+		"Q": "80. A hiring manager of a company faces difficult decision when selecting the right candidate for a job. Human rights legislation has been enacted by every province and territory to allow for a fair treatment of individuals. However, not all forms of discrimination is illegal. Which one of the following discrimination types may be acceptable under some circumstances?",
+		"A5": "80.B. is correct. An employer may discriminate based on disability if the job requirements truly demand it. An example would be an geotechnical engineer that has to perform regular site inspections in confined spaces or on the side of a steep cliff. Law text pg. 244.",
+		"A2": "B. discrimination based on disability",
+		"A1": "A. discrimination based on age",
+		"A3": "C. discrimination based on gender",
+		"A4": "D. discrimination based on religion"
+	},
+	{
+		"Q": "81. Engineers and geoscientists are bound by the Code of Ethics to protect:",
+		"A5": "81.A. is correct. Ethics text p. 309.",
+		"A2": "B. self-interest and the interest of the employer",
+		"A1": "A. the public welfare, which includes the environment",
+		"A3": "C. others from doing things illegally",
+		"A4": "D. the public from bad engineers and geoscientists"
+	},
+	{
+		"Q": "82. If a P.Eng or P.Geo is working as a consultant and is hired by a new client who is a competitor of a former client, the consultant must NOT:",
+		"A5": "82.A. Is correct. D is also a good answer, but it is not the most correct answer. You may not disclose a previous client's affairs, be they technical, business or personal about a former client. Ethics text pg. 288-289.",
+		"A2": "B. Charge a different rate for consulting services provided.",
+		"A1": "A. Accept a contract that requires disclosure of a previous client's affairs.",
+		"A3": "C. Disclose that he/she has worked for their competition.",
+		"A4": "D. Sign a confidentially agreement without having it reviewed by his/her boss."
+	},
+	{
+		"Q": "83. A telecommunications development company leased an underground pipe system from a municipality to utilize it to install a fibre optic cable system. The telecommunications development company then entered into an installation contract with a contractor to construct the system. The contract specified that time was of the essence and that the contract was to be completed by the specified completion date, failing which the contractor would be responsible for liquidated damages. The contractor began its work but failed to meet the specified completion date due to its failure to properly staff and organize its workforce. In addition, during the installation, the contractor's inexperienced workers damaged significant amounts of the fibre optic cable. As a result of the contractor's fundamental breach, the development company has which two options:",
+		"A5": "83.A. is correct. A fundamental breach is significant and gives the innocent party an option to cancel the contract in addition to suing for damages. Law text p. 61.",
+		"A2": "B. to enforce a cost reimbursable contract; to terminate the contract and sue for damages",
+		"A1": "A. to continue using the contractor and sue for damages; to terminate the contract and sue for damages",
+		"A3": "C. to revise the contract making the contractor subrogate the losses; to enforce a cost reimbursable contract",
+		"A4": "D. to terminate the contract and sue for damages; to impose a negative restrictive covenant"
+	},
+	{
+		"Q": "84. A business that awards higher salaries to men than women for equal positions is in violation of which clause of the Canadian Charter of Rights and Freedoms?",
+		"A5": "84.D. Is correct. Ethics text pg. 192.",
+		"A2": "B. Clause 7 which says everyone has the right to life, liberty and security",
+		"A1": "A. Clause 2 relating to the fundamental freedoms",
+		"A3": "C. Clause 12 which protects against cruel and unusual punishment",
+		"A4": "D. Clause 15 which defines equality rights"
+	},
+	{
+		"Q": "85. When a professional engineer or geoscientist provides a client incompetent or negligent advice they are exposing themselves to lawsuits. Which of the following is NOT a type of law?",
+		"A5": "85.C. Is correct. A subpoena is a court order requiring a witness testimony. Ethics text pg. 139-40 for types of law.",
+		"A2": "B. contract",
+		"A1": "A. consumer legislation",
+		"A3": "C. subpoena",
+		"A4": "D. tort"
+	},
+	{
+		"Q": "86. The International Standards Organization (ISO) was formed to standardize the standards. Two of its more popular standard are ISO 9000 and ISO 14000, which standardize:",
+		"A5": "86.A. Is correct. Ethics text pg. 154-155.",
+		"A2": "B. Quality Management and Time Management, respectively.",
+		"A1": "A. Quality Management and Environmental Management, respectively.",
+		"A3": "C. Scope Management and Budget Management, respectively.",
+		"A4": "D. Time Management and Environmental Management, respectively."
+	},
+	{
+		"Q": "87. All contracts must come to an end. When a construction contract has been established between an owner and a contractor, which of the following is NOT a legitimate reason for ending the contract?",
+		"A5": "87.D. is correct. A grievance is a dispute over collective agreements that are internal to an organization and should not be a cause for ending a contract with another party. The legitimate reasons are: breach, complete performance, frustration and mutual agreement. Law text p. 57-61 for contract termination; Law text p. 233 for grievance.",
+		"A2": "B. complete performance",
+		"A1": "A. breach (simple or fundamental)",
+		"A3": "C. frustration",
+		"A4": "D. grievance"
+	},
+	{
+		"Q": "88. Theory Y style of management argues that:",
+		"A5": "88.B. Is correct. Remember the sign of an 'Y' is positive so the viewpoint is also positive towards the workplace. Ethics text pg. 118.",
+		"A2": "B. employees are naturally inclined to work and will produce beyond expectations if properly motivated",
+		"A1": "A. employees dislike work, thus they need to be closely monitored",
+		"A3": "C. managers must profile their employee's personality types before trying to manage",
+		"A4": "D. managers should let employees make their own schedules"
+	},
+	{
+		"Q": "89. John is a P.Eng who does mechanical design for his day job. He wishes to make more money by moonlighting in the evenings by doing design work for his own company in a non-competitive industry. Is John acting unethical?",
+		"A5": "89.A. Is correct. Secrecy is a problem but establishing proper communications makes this acceptable. Ethics text pg. 254.",
+		"A2": "B. No, moonlighting is legal and he doesn't have to inform anyone.",
+		"A1": "A. No, as long as he informs his daytime employer and his moonlighting clients of his limitations.",
+		"A3": "C. No, moonlighting is only illegal if it is in the same industry.",
+		"A4": "D. Yes, John can only work for one company at a time."
+	},
+	{
+		"Q": "90. Which of the following is NOT a step of the Quality-Based Selection (QBS) process for contracting a consultant?",
+		"A5": "90.B. Is correct. Although studies may indicated that 1.5% is the typical engineering fee in a project, this is not the a step of the QBS. Ethics text pg. 131-132.",
+		"A2": "B. ensuring consulting fees don't exceed 1.5% of project costs",
+		"A1": "A. requesting detailed proposals",
+		"A3": "C. negotiating an appropriate fee based on a mutually agreed scope",
+		"A4": "D. short listing qualified firms"
+	},
+	{
+		"Q": "91. A professional many need to advertise his or her services. According to most Provincial and Territorial Acts, which advertising activity by a professional member would be considered appropriate?",
+		"A5": "91.D. Is correct. It is important to be factual, clear and dignified. The medium you use is irrelevant. Ethics text pg. 286-287",
+		"A2": "B. Highlighting aspects of a project for which the advertiser had no involvement",
+		"A1": "A. Comparing its services to the competitors by belittling the other firm",
+		"A3": "C. Being paid to endorse a product and claim to have designed it",
+		"A4": "D. Using podcasting to present an advertisement that is factual, clear and dignified."
+	},
+	{
+		"Q": "92. The four basic categories of justice include:",
+		"A5": "92.B. Is correct. When faced with an ethical dilemma, to determine if it is fair, review these four categories. Ethics text pg. 222-225.",
+		"A2": "B. Procedural, Corrective, Distributive, Political",
+		"A1": "A. Fairness, Impartial, Consistent, Disciplinary",
+		"A3": "C. Municipal, Provincial, Federal, Supreme Court",
+		"A4": "D. Tort, Righteous, Equitable, Fair"
+	},
+	{
+		"Q": "93. When your duty to your employer conflicts with your duty the public welfare, the Code of Ethics provides 3 courses of action. Which is NOT one of them?",
+		"A5": "93.B. Is correct. Correcting the problem should be the first option exercised but whistle blowing and resigning are also acceptable. Ethics text pg. 245.",
+		"A2": "B. Contact a lawyer.",
+		"A1": "A. Blow the whistle.",
+		"A3": "C. Correct the problem.",
+		"A4": "D. Resign in protest."
+	},
+	{
+		"Q": "94. Engineering and Geoscience professions benefit our society greatly. Which of the following is not an example of a Canadian engineering or geoscience achievement?",
+		"A5": "94.A. Is correct. Luna 3 probe was a Soviet Union innovation back in 1953.Ethics text pg. 2-4.",
+		"A2": "B. Athabasca commercial oil sands Development",
+		"A1": "A. Luna 3 Probe Photographs the moon",
+		"A3": "C. Transcontinental railway network",
+		"A4": "D. CANDU nuclear power system"
+	},
+	{
+		"Q": "95. The Code of Ethics states that a professional should have competence:",
+		"A5": "95.D. Is correct. Provincial/Territorial Code of Ethics.",
+		"A2": "B. in all technical aspects under his/her discipline.",
+		"A1": "A. in the field in which they are working in.",
+		"A3": "C. in the project which he/she is engaged in.",
+		"A4": "D. in the performance of any professional services that are undertaken."
+	},
+	{
+		"Q": "96. It is acceptable for an engineer or geoscientist to use a seal:",
+		"A5": "96.C. Is correct. An engineer or geoscientist can seal a document that was prepared by assistants under supervision as long as he/she is intimately familiar with the content. Ethics text pg. 49.",
+		"A2": "B. in the absence of his/her signature and date.",
+		"A1": "A. on a document that is not a final version.",
+		"A3": "C. on a document that was not prepared by the professional.",
+		"A4": "D. on a document that was reviewed casually."
+	},
+	{
+		"Q": "97. Joe has two years of engineering related experience, is registered as an member-in-training (MIT) and is not licensed. Which of the following would be an acceptable title Joe?",
+		"A5": "97.D. Is correct. If you are not licensed, then you may not mislead others with the word 'engineer' in your title. Ethics text pg. 266.",
+		"A2": "B. Project Supervisor Engineer",
+		"A1": "A. Junior Engineer",
+		"A3": "C. Chief Engineer",
+		"A4": "D. Senior Technical Analyst"
+	},
+	{
+		"Q": "98. According to most Provincial and Territorial Code of Ethics, which activity by a professional member would be considered a breach of the Code of Ethics?",
+		"A5": "98.D. Is correct. You should not accept an engagement to review the work of another practitioner for the same employer except with the knowledge of the other practitioner or except where the connection of the other practitioner with the work has been terminated. Provincial/Territorial Code of Ethics.",
+		"A2": "B. Giving proper credit for engineering work",
+		"A1": "A. Acting towards other practitioners with courtesy and good faith",
+		"A3": "C. Demanding adequate compensation for engineering work",
+		"A4": "D. Review the work of another practitioner for the same employer without the other practitioner’s knowledge"
+	},
+	{
+		"Q": "99. According to most Provincial and Territorial Acts, which activity by a professional member would be considered UNETHICAL?",
+		"A5": "99.B. is correct. Most Provincial and Territorial Acts stipulate that before professionals sign plans that were not prepared by themselves or under their direct supervision, they must first thoroughly review those plans. Failing to do so means that the professional failed to comply with the Act and, therefore, was in violation of the Code of Ethics.",
+		"A2": "B. Signing plans prepared by an unknown person without thoroughly reviewing those plans",
+		"A1": "A. Not charging a fee for presenting a speech",
+		"A3": "C. Reviewing the work of another member with that member’s consent",
+		"A4": "D. Providing professional services as a consultant"
+	},
+	{
+		"Q": "100. What type of intellectual property can be best described as the visual features of shape, configuration, pattern or ornament applied to a finished manufactured article?",
+		"A5": "100.A. Is correct. A Guide to Patents pg. 4.",
+		"A2": "B. integrated circuit topography",
+		"A1": "A. industrial design",
+		"A3": "C. patent",
+		"A4": "D. trade-mark"
+	}
+]

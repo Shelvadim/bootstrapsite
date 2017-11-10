@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">    
+    <head>
+        <title>Data</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+    </head>
+
+    <body>  
+        <!--<object data="navbar.html"></object>--
+        <ng-include src="'navbar.html'"></ng-include>-->
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>                        
+                            </button>
+                    <a class="navbar-brand" href="https://shelgachev.neocities.org/">V.SH.</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="https://shelgachev.neocities.org/">Home</a></li>
+                        
+                        <li><a href="https://shelgachev.neocities.org/about.html">About</a></li>
+                    </ul>
+                </div>    
+            </div>
+        </nav>
+
+            <div class="container-fluid" style="margin-top:50px">            
+             <div class="row">
+                 <div class="col-sm-12"  style="border-right: 1px solid grey">
+                    <p>Test.</p>                   
+                    
+                    <label for="sel1">Select question to start test from:</label>
+                    <select class="form-control-sm" id="sel1">
+                      <option>0</option>
+                      <option>20</option>
+                      <option>40</option>
+                      <option>60</option>
+                      <option>80</option>
+                    </select>
+                    <br>
+                                                
+                    <div class="well" id="question"></div>
+                            <div class="btn-group-vertical-sm">
+                                 <button type="button"  class="btn-block text-left" onclick="check(1)" id="option1"></button>
+                                 <br>
+                                 <button type="button"  class="btn-block text-left" onclick="check(2)" id="option2"></button>
+                                 <br>
+                                 <button type="button"  class="btn-block text-left" onclick="check(3)" id="option3"></button>
+                                 <br>
+                                 <button type="button"  class="btn-block text-left" onclick="check(4)" id="option4"></button>
+                             </div>
+                            <br>
+                            <br>
+                            <button type="button" id="start" class="btn-default" onclick="check(0)">Start test</button>
+                            <br>
+                            
+                    <script>
+                        var selectedNum=0;
+$('#sel1').change(function () {
+    selectedNum =parseInt($(this).find("option:selected").text());
+    k=0;
+    document.getElementById("question").innerHTML="";
+                                     
+                                    document.getElementById("option1").innerHTML="";
+                                    document.getElementById("option2").innerHTML="";
+                                    document.getElementById("option3").innerHTML="";
+                                    document.getElementById("option4").innerHTML="";
+                                document.getElementById("start").innerHTML="Start new test";
+                                document.getElementById("result").innerHTML="";
+                                orderbit=0;
+});    
+                    
+                    var xmlhttp = new XMLHttpRequest();
+                    var myArr;
+                    var k = 0;
+                    var orderbit=0;
+                    var arn;
+                    xmlhttp.open("GET", "dataq.txt", true); 
+                    xmlhttp.onload = function() {    
+                            myArr = JSON.parse(this.responseText);
+                            arn = myArr.length;    
+                    };
+                    
+                    xmlhttp.send();
+                    
+                    function check(num){
+                    
+                    if(num==0 && orderbit==0){
+                        if((k+selectedNum)<arn){
+                        document.getElementById("question").innerHTML=myArr[k+selectedNum].Q;
+                                     
+                            document.getElementById("option1").innerHTML=myArr[k+selectedNum].A1;
+                            document.getElementById("option2").innerHTML=myArr[k+selectedNum].A2;
+                            document.getElementById("option3").innerHTML=myArr[k+selectedNum].A3;
+                            document.getElementById("option4").innerHTML=myArr[k+selectedNum].A4;
+                            
+                        document.getElementById("start").innerHTML="Next";
+                        document.getElementById("result").innerHTML="";
+                        orderbit=1;
+                        }
+                        else
+                            {
+                                document.getElementById("question").innerHTML="";
+                                     
+                                    document.getElementById("option1").innerHTML="";
+                                    document.getElementById("option2").innerHTML="";
+                                    document.getElementById("option3").innerHTML="";
+                                    document.getElementById("option4").innerHTML="";
+                                document.getElementById("start").innerHTML="Start new test";
+                                k=0;
+                            }
+                    
+                    }
+                    
+                    if(num>0 && orderbit==1){
+                    
+                        document.getElementById("result").innerHTML=myArr[k+selectedNum].A5;                
+                           k++;  
+                        orderbit=0;   
+                    }
+                    
+                    };
+                    
+                    </script>
+                    <br>
+                    <br>
+                    <div class="well"  id="result"></div>
+                    <br>
+                    <br>
+                    <p>Content written as an JSON array will be converted into a JavaScript array.</p>                  
+                 </div>                
+             </div>  
+        
+        </div>  
+
+        <footer class="container-fluid text-center" style="margin-top:50px">
+            &copy 2016 VSH
+        </footer>  
+    
+    </body>
+</html>

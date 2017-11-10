@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">    
+    <head>
+        <title>Data</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+
+    <body>  
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>                        
+                            </button>
+                    <a class="navbar-brand" href="https://shelgachev.neocities.org/">V.SH.</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="https://shelgachev.neocities.org/">Home</a></li>
+                        <!--<li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">CheatSheets
+                            <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">HTML</a></li>
+                                <li><a href="#">CSS</a></li>
+                                <li><a href="#">JavaScript</a></li>
+                                <li><a href="#">Bootstrap</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="https://shelgachev.neocities.org/canvasblog1.html">Blog</a></li>-->
+                        <li><a href="https://shelgachev.neocities.org/about.html">About</a></li>
+                    </ul>
+                </div>    
+            </div>
+        </nav>   
+
+        <div class="container-fluid" style="margin-top:50px">            
+             <div class="row">
+                 <div class="col-sm-12">
+                     <h3>Simple chart</h3>
+                     <canvas id="myCanvas" width="300" height="220" style="border:1px solid #d3d3d3; margin: auto; ">
+                         Your browser does not support the canvas element.
+                     </canvas> 
+                     <p> Code</p>
+                     <div>
+                            <pre style="background:#fff;color:#000;  height: 300px"><span style="color:#1c02ff">&lt;!<span style="color:#888"><span style="color:#888">DOCTYPE</span> html</span>></span>
+                            <span style="color:#1c02ff">&lt;<span style="font-weight:700">html</span>></span>
+                            <span style="color:#1c02ff">&lt;<span style="font-weight:700">body</span>></span>
+
+                            <span style="color:#1c02ff">&lt;<span style="font-weight:700">canvas</span> <span style="font-style:italic">id</span>=<span style="color:#036a07">"myCanvas"</span> <span style="font-style:italic">width</span>=<span style="color:#036a07">"300"</span> <span style="font-style:italic">height</span>=<span style="color:#036a07">"220"</span> <span style="font-style:italic">style</span>=<span style="color:#036a07">"border:1px solid #d3d3d3;"</span>></span>
+                            Your browser does not support the HTML5 canvas tag.<span style="color:#1c02ff">&lt;/<span style="font-weight:700">canvas</span>></span>
+
+                            &lt;<span style="font-weight:700">script</span>>
+                                    <span style="color:#00f;font-weight:700">var</span> canvas <span style="color:#687687">=</span> <span style="color:#6d79de;font-weight:700">document</span>.<span style="color:#3c4c72;font-weight:700">getElementById</span>(<span style="color:#036a07">"myCanvas"</span>);
+                                    <span style="color:#00f;font-weight:700">var</span> ctx <span style="color:#687687">=</span> canvas.getContext(<span style="color:#036a07">"2d"</span>);
+                                    ctx.font<span style="color:#687687">=</span><span style="color:#036a07">"60px"</span>;
+                                    ctx.strokeText(<span style="color:#036a07">"100"</span>,<span style="color:#0000cd">5</span>,<span style="color:#0000cd">20</span>); 
+                                    ctx.strokeText(<span style="color:#036a07">"0"</span>,<span style="color:#0000cd">15</span>,<span style="color:#0000cd">190</span>); 
+                                    ctx.<span style="color:#3c4c72;font-weight:700">moveTo</span>(<span style="color:#0000cd">25</span>,<span style="color:#0000cd">10</span>);
+                                    ctx.lineTo(<span style="color:#0000cd">25</span>,<span style="color:#0000cd">190</span>);
+                                    ctx.<span style="color:#3c4c72;font-weight:700">moveTo</span>(<span style="color:#0000cd">25</span>,<span style="color:#0000cd">190</span>);
+                                    ctx.lineTo(<span style="color:#0000cd">290</span>,<span style="color:#0000cd">190</span>);
+                                    ctx.stroke(); 
+                                    ctx.fillStyle <span style="color:#687687">=</span> <span style="color:#036a07">"rgb(200,0,0)"</span>;
+                                    ctx.fillRect(<span style="color:#0000cd">40</span>, <span style="color:#0000cd">90</span>, <span style="color:#0000cd">25</span>, <span style="color:#0000cd">100</span>);
+                                    ctx.fillStyle <span style="color:#687687">=</span> <span style="color:#036a07">"rgb(0,200,0)"</span>;
+                                    ctx.fillRect(<span style="color:#0000cd">100</span>, <span style="color:#0000cd">40</span>, <span style="color:#0000cd">25</span>, <span style="color:#0000cd">150</span>);
+                                    ctx.fillStyle <span style="color:#687687">=</span> <span style="color:#036a07">"rgb(200,0,200)"</span>;
+                                    ctx.fillRect(<span style="color:#0000cd">160</span>, <span style="color:#0000cd">90</span>, <span style="color:#0000cd">25</span>, <span style="color:#0000cd">100</span>);
+                                    ctx.fillStyle <span style="color:#687687">=</span> <span style="color:#036a07">"rgb(0,200,200)"</span>;
+                                    ctx.fillRect(<span style="color:#0000cd">220</span>, <span style="color:#0000cd">40</span>, <span style="color:#0000cd">25</span>, <span style="color:#0000cd">150</span>);
+                                    ctx.strokeStyle<span style="color:#687687">=</span><span style="color:#036a07">'green'</span>;
+                                    ctx.strokeText(<span style="color:#036a07">"80"</span>,<span style="color:#0000cd">220</span>,<span style="color:#0000cd">20</span>);
+                                    ctx.strokeText(<span style="color:#036a07">"60"</span>,<span style="color:#0000cd">40</span>,<span style="color:#0000cd">70</span>);
+                                    ctx.strokeText(<span style="color:#036a07">"80"</span>,<span style="color:#0000cd">100</span>,<span style="color:#0000cd">20</span>);
+                                    ctx.strokeText(<span style="color:#036a07">"60"</span>,<span style="color:#0000cd">160</span>,<span style="color:#0000cd">70</span>);
+                                    ctx.strokeStyle<span style="color:#687687">=</span><span style="color:#036a07">'blue'</span>;
+                                    ctx.strokeText(<span style="color:#036a07">"tv"</span>,<span style="color:#0000cd">220</span>,<span style="color:#0000cd">210</span>);
+                                    ctx.strokeText(<span style="color:#036a07">"car"</span>,<span style="color:#0000cd">160</span>,<span style="color:#0000cd">210</span>);
+                                    ctx.strokeText(<span style="color:#036a07">"food"</span>,<span style="color:#0000cd">100</span>,<span style="color:#0000cd">210</span>);
+                                    ctx.strokeText(<span style="color:#036a07">"house"</span>,<span style="color:#0000cd">40</span>,<span style="color:#0000cd">210</span>);                   
+                                &lt;/<span style="font-weight:700">script</span>> 
+                            <span style="color:#1c02ff">&lt;/<span style="font-weight:700">body</span>></span>
+                            <span style="color:#1c02ff">&lt;/<span style="font-weight:700">html</span>></span>
+                            </pre>
+                     </div>   
+                 </div>                 
+             </div>  
+        
+        </div>  
+
+        <footer class="container-fluid text-center">
+            <p>Copyright © 2016 VSH</p>
+        </footer>  
+    <script>
+        var canvas = document.getElementById("myCanvas");
+        var ctx = canvas.getContext("2d");
+        ctx.font="60px";
+        ctx.strokeText("100",5,20); 
+        ctx.strokeText("0",15,190); 
+        ctx.moveTo(25,10);
+        ctx.lineTo(25,190);
+        ctx.moveTo(25,190);
+        ctx.lineTo(290,190);
+        ctx.stroke(); 
+        ctx.fillStyle = "rgb(200,0,0)";
+        ctx.fillRect(40, 90, 25, 100);
+        ctx.fillStyle = "rgb(0,200,0)";
+        ctx.fillRect(100, 40, 25, 150);
+        ctx.fillStyle = "rgb(200,0,200)";
+        ctx.fillRect(160, 90, 25, 100);
+        ctx.fillStyle = "rgb(0,200,200)";
+        ctx.fillRect(220, 40, 25, 150);
+        ctx.strokeStyle='green';
+        ctx.strokeText("80",220,20);
+        ctx.strokeText("60",40,70);
+        ctx.strokeText("80",100,20);
+        ctx.strokeText("60",160,70);
+        ctx.strokeStyle='blue';
+        ctx.strokeText("tv",220,210);
+        ctx.strokeText("car",160,210);
+        ctx.strokeText("food",100,210);
+        ctx.strokeText("house",40,210);                   
+    </script>        
+    </body>
+                            
+</html>

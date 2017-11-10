@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">    
+    <head>
+        <title>Data</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+
+    <body>  
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>                        
+                            </button>
+                    <a class="navbar-brand" href="https://shelgachev.neocities.org/">V.SH.</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="https://shelgachev.neocities.org/">Home</a></li>
+                        <!--<li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">CheatSheets
+                            <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">HTML</a></li>
+                                <li><a href="#">CSS</a></li>
+                                <li><a href="#">JavaScript</a></li>
+                                <li><a href="#">Bootstrap</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="https://shelgachev.neocities.org/canvasblog1.html">Blog</a></li>-->
+                        <li><a href="https://shelgachev.neocities.org/about.html">About</a></li>
+                    </ul>
+                </div>    
+            </div>
+        </nav>   
+
+        <div class="container-fluid" style="margin-top:50px">            
+             <div class="row">
+                 <div class="col-sm-12">
+                     <h3>Simple Arkanoid based on Udemy tutorial - How to Program Games: Tile Classics in JS for HTML5 Canvas</h3>
+                     <canvas id="gameCanvas" width="800" height="600" style="border:1px solid #d3d3d3; margin: 0 auto; display: block; ">
+                         Your browser does not support the canvas element.
+                     </canvas>                      
+                       
+                 </div>                 
+             </div>  
+        
+        </div>  
+
+        <footer class="container-fluid text-center">
+            <p>Copyright © 2016 VSH</p>
+        </footer>  
+    <script>
+          
+        var ballX=75;
+        var ballSpeedX=5;
+        var ballY=75;
+        var ballSpeedY=7;
+
+        const BRICK_W=80;
+        const BRICK_H=20;
+        const BRICK_GAP=2;
+        const BRICK_COL=10;
+        const BRICK_ROWS=14;
+      
+        var brickGrid=new Array(BRICK_COL*BRICK_ROWS);
+        var bricksLeft=0;
+
+        const PADDLE_WIDTH=100;
+        const PADDLE_THICKNESS=10;
+        const PADDLE_DIST_FROM_EDGE=60;
+        var paddleX=400;
+
+        var canvas, canvasContext;
+
+        var mouseX=0;
+        var mouseY=0;
+
+        function updateMousePos(evt){
+            var rect =canvas.getBoundingClientRect();
+            var root =document.documentElement;
+
+            mouseX=evt.clientX - rect.left - root.scrollLeft;
+            mouseY=evt.clientY-rect.top-root.scrollTop;
+
+            paddleX=mouseX-PADDLE_WIDTH/2;
+        }
+
+        window.onload=function(){
+            canvas=document.getElementById('gameCanvas');
+            canvasContext=canvas.getContext('2d');
+
+            var framesPerSecond=30;
+            setInterval(updateAll, 1000/framesPerSecond);
+
+            canvas.addEventListener('mousemove', updateMousePos)
+
+            brickReset();
+            ballReset();
+
+        }
+
+        function brickReset(){
+            bricksLeft=0;
+            var i;
+            for(i=0; i<3*BRICK_COL; i++){
+                brickGrid[i]=false;
+            }
+            for(; i<BRICK_COL*BRICK_ROWS; i++){
+                //if(Math.random()<0.5){
+                    brickGrid[i]=true;
+                    bricksLeft++;
+                }// else{
+                   // brickGrid[i]=false;
+                //}//end rnd check
+               // bricksLef=BRICK_COL*BRICK_ROWS;
+           // }//end each brick
+            //brickGrid[6]=false;
+        }//end func
+
+        function updateAll(){
+
+            moveAll();
+            drowAll();
+        }
+
+        function ballReset(){
+            ballX=canvas.width/2;
+            ballY=canvas.height/2;
+        }
+
+        function ballMove(){
+            ballX+=ballSpeedX;
+            ballY+=ballSpeedY;
+            
+            if(ballY>canvas.height){//bottom
+                ballReset();
+                brickReset();
+                //ballSpeedY=-ballSpeedY;
+            }
+            if(ballY<0 && ballSpeedY<0.0){//top
+                ballSpeedY=-ballSpeedY;
+            }
+
+            if(ballX>canvas.width && ballSpeedX>0.0){//right
+                ballSpeedX=-ballSpeedX;
+            }
+            if(ballX<0 && ballSpeedX<0.0){//left
+                ballSpeedX=-ballSpeedX;
+            }
+        }
+
+        function isBrickAtRowCol(col, row){
+            if(col>=0 && col<BRICK_COL &&
+                row>=0 && row<BRICK_ROWS){
+                var brickIndexUnderCoor=rowColToArrayIndex(col, row);
+                return brickGrid[brickIndexUnderCoor];
+            } else{
+                return false
+            }
+        }
+
+        function ballBrickHandling(){
+            var ballBrickCol=Math.floor(ballX/BRICK_W);
+            var ballBrickRow=Math.floor(ballY/BRICK_H); 
+            var brickIndexUnderBall=rowColToArrayIndex(ballBrickCol, ballBrickRow);
+            
+
+            if(ballBrickCol>=0 && ballBrickCol<BRICK_COL &&
+            ballBrickRow>=0 && ballBrickRow<BRICK_ROWS){
+
+                if(isBrickAtRowCol(ballBrickCol, ballBrickRow)){
+                brickGrid[brickIndexUnderBall]=false;
+                bricksLeft--;
+
+
+                var prevBallX=ballX-ballSpeedX;
+                var prevBallY=ballY-ballSpeedY;
+                var prevBrickCol=Math.floor(prevBallX/BRICK_W);
+                var prevBrickRow=Math.floor(prevBallY/BRICK_H);
+
+                var bothTestFailed=true;
+
+                if(prevBrickCol != ballBrickCol){
+                   // var adjBrickSide=rowColToArrayIndex(prevBrickCol, ballBrickRow);
+
+                    if(isBrickAtRowCol(prevBrickCol, ballBrickRow)==false){
+                        ballSpeedX*=-1;
+                        bothTestFailed=false;
+                    }
+                }
+                if(prevBrickRow != ballBrickRow){
+                    var adjBrickTopBot=rowColToArrayIndex();
+
+                    if(isBrickAtRowCol(ballBrickCol, prevBrickRow)==false){
+                        ballSpeedY*=-1;
+                        bothTestFailed=false;
+                    }
+                }
+
+                if(bothTestFailed){
+                    ballSpeedX*=-1;
+                    ballSpeedY*=-1;
+                }
+
+                }
+            }
+        }
+
+        function ballPaddleHandling(){
+            var paddleTopEdgeY=canvas.height-PADDLE_DIST_FROM_EDGE;
+            var paddleBottomEdgeY=paddleTopEdgeY+PADDLE_THICKNESS;
+            var paddleLeftEdgeX=paddleX;
+            var paddleRightEdgeX=paddleLeftEdgeX+PADDLE_WIDTH;
+            if(ballY>paddleTopEdgeY &&
+                ballY<paddleBottomEdgeY &&
+                ballX>paddleLeftEdgeX &&
+                ballX<paddleRightEdgeX){
+                    ballSpeedY=-ballSpeedY;
+
+                    var centerOfPaddleX=paddleX+PADDLE_WIDTH/2;
+                    var ballDistFromPaddleCenterX=ballX-centerOfPaddleX;
+                    ballSpeedX=ballDistFromPaddleCenterX*0.35;
+
+                    if (bricksLeft==0){
+                        brickReset();
+                    }
+                }
+        }
+
+        function moveAll(){
+
+
+            ballMove();
+
+            ballBrickHandling();
+
+            ballPaddleHandling();
+        }
+
+        function rowColToArrayIndex(col, row){
+            return col+BRICK_COL*row;
+        }
+
+        function drawBricks(){
+            for(var r=0; r<BRICK_ROWS; r++){
+                
+                for(var i=0; i<BRICK_COL; i++){
+
+                    var arrayIndex=rowColToArrayIndex(i, r);
+
+                    if(brickGrid[arrayIndex]){
+                        colorRect(BRICK_W*i,BRICK_H*r, BRICK_W-BRICK_GAP,BRICK_H-BRICK_GAP, 'SandyBrown');
+                    }//end brick here
+                }//  end each brick 
+            }
+        }//end func
+
+        function drowAll(){
+
+            colorRect(0,0, canvas.width,canvas.height, 'GhostWhite'); //clear screen
+
+            colorCircle(ballX,ballY, 10, 'SlateGray ');// draw ball
+
+            colorRect(paddleX, canvas.height-PADDLE_DIST_FROM_EDGE,
+                PADDLE_WIDTH,PADDLE_THICKNESS, 'SlateGray ');
+
+            drawBricks();
+
+            //colorText(mouseBrickCol+","+mouseBrickRow+":"+brickIndexUnderMouse,
+                      //   mouseX,mouseY, 'yellow');
+            
+
+        }
+
+        function colorRect(topLeftX,topLeftY, boxWidth, boxHeight, fillColor){
+            canvasContext.fillStyle=fillColor;
+            canvasContext.fillRect(topLeftX,topLeftY, boxWidth,boxHeight);
+        }
+
+        function colorCircle(centerX,centerY, radius, fillColor){
+            canvasContext.fillStyle=fillColor;
+            canvasContext.beginPath();
+            canvasContext.arc(centerX,centerY, radius, 0, Math.PI*2, true);
+            canvasContext.fill();
+        }
+
+        function colorText(showWords, textX,textY, fillColor){
+            canvasContext.fillStyle=fillColor;
+            canvasContext.fillText(showWords, textX,textY);
+
+        }                   
+    </script>        
+    </body>
+                            
+</html>
