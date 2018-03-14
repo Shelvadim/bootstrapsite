@@ -4,26 +4,27 @@
 
 // Auto-generated content.
 import {VRInstance} from 'react-vr-web';
-import * as THREE from 'three'
-import * as OVRUI from 'ovrui';
+
+//import * as OVRUI from 'ovrui';
 import ControllerRayCaster from 'react-vr-controller-raycaster';
 
-
+import * as THREE from 'three';
 
 function init(bundle, parent, options) {
 
   const scene = new THREE.Scene(); // Create a Scene object, more on this below
 
-  const vr = new VRInstance(bundle, 'TestVideo', parent, {
-    // Add custom options here
+
+  const vr = new VRInstance(bundle, 'ray2', parent, {
     // specify your list of raycasters
     raycasters: [
       new ControllerRayCaster({scene, color: '#ff0000'}),
-      new OVRUI.MouseRayCaster(),
+      //new OVRUI.MouseRayCaster(),
     ],
 
     scene: scene,
     cursorVisibility: 'visible',
+
     ...options,
   });
   vr.render = function() {
