@@ -4,19 +4,21 @@
 
 // Auto-generated content.
 import {VRInstance} from 'react-vr-web';
-import * as SimpleRaycaster from "simple-raycaster";
 
-
+const SimpleRaycaster = {
+  getType: () => "simple",
+  getRayOrigin: () => [0, 0, 0],
+  getRayDirection: () => [0, 0, -1],
+  drawsCursor: () => true
+};
 
 function init(bundle, parent, options) {
-  const vr = new VRInstance(bundle, 'ReactVR_game', parent, {
-
-    raycasters: [
-      SimpleRaycaster // Add SimpleRaycaster to the options 
-    ],
-    
-    cursorVisibility: "auto", // Add cursorVisibility
+  const vr = new VRInstance(bundle, 'island', parent, {
     // Add custom options here
+    raycasters: [
+      SimpleRaycaster // Add SimpleRaycaster to the options
+    ],
+    cursorVisibility: 'visible', // Add cursorVisibility
     ...options,
   });
   vr.render = function() {
