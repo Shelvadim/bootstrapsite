@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">    
+    <head>
+            <title>My site</title>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+            <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+            <style>
+                div.gallery {
+                    border: 1px solid #ccc;
+                }
+                
+                div.gallery:hover {
+                    border: 1px solid #777;
+                }
+                
+                div.gallery img {
+                    width: 100%;
+                    height: auto;
+                }
+                
+                div.desc {
+                    padding: 15px;
+                    text-align: center;
+                }
+                
+                * {
+                    box-sizing: border-box;
+                }
+                
+                .responsive {
+                    padding: 0 6px;
+                    float: left;
+                    width: 24.99999%;
+                }
+                
+                @media only screen and (max-width: 700px) {
+                    .responsive {
+                        width: 49.99999%;
+                        margin: 6px 0;
+                    }
+                }
+                
+                @media only screen and (max-width: 500px) {
+                    .responsive {
+                        width: 100%;
+                    }
+                }
+                
+                .clearfix:after {
+                    content: "";
+                    display: table;
+                    clear: both;
+                }
+                </style>
+        
+    </head>
+
+    
+
+    <body>  
+       
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>                        
+                            </button>
+                    <a class="navbar-brand" href="https://shelvadim.github.io/bootstrapsite/">V.SH.</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">                        
+                        <li><a href="https://shelvadim.github.io/bootstrapsite/">Portfolio</a></li>                        
+                        <li><a href="/bootstrapsite/about.html">About</a></li>
+                        <li><a href="https://github.com/Shelvadim"><i class="fab fa-github"></i></a></li>
+                        <li><a href="https://codepen.io/shelvadim/"><i class="fab fa-codepen"></i></a></li>
+                    </ul>
+                </div>    
+            </div>
+        </nav>
+
+            <div class="container-fluid" style="margin-top:50px">      
+
+                        <h2>Portfolio.</h2>
+                        <h4>You can find code on my github page.</h4>
+
+                        <div class="responsive">
+                            <div class="gallery">
+                              <a target="_blank" href="/bootstrapsite/vueapi/index.html">
+                                <img src="img\\vueapi.jpg" alt="Mountains" width="600" height="400">
+                              </a>
+                              <div class="desc">Read API data from SWAPI.co with Vue.js</div>
+                            </div>
+                          </div>
+                        
+                        <div class="responsive">
+                          <div class="gallery">
+                            <a target="_blank" href="https://github.com/Shelvadim/test_react_api">
+                              <img src="img\\api.jpg" alt="Cinque Terre" width="600" height="400">
+                            </a>
+                            <div class="desc">Read API data with React.js</div>
+                          </div>
+                        </div>
+                        
+                        
+                        <div class="responsive">
+                          <div class="gallery">
+                            <a target="_blank" href="/bootstrapsite/animation/index.html">
+                              <img src="img\\animation.jpg" alt="Forest" width="600" height="400">
+                            </a>
+                            <div class="desc">React-360 animation</div>
+                          </div>
+                        </div>
+                        
+                        <div class="responsive">
+                          <div class="gallery">
+                            <a target="_blank" href="/bootstrapsite/indapp.html">
+                              <img src="img\\ReactIndApp.jpg" alt="Northern Lights" width="600" height="400">
+                            </a>
+                            <div class="desc">Indecision application, React.js</div>
+                          </div>
+                        </div>
+                        
+                        <div class="responsive">
+                          <div class="gallery">
+                            <a target="_blank" href="/bootstrapsite/teleport/index.html">
+                              <img src="img\\ReactVR.jpg" alt="Mountains" width="600" height="400">
+                            </a>
+                            <div class="desc">Teleport application, 360 photo experience with ReactVR</div>
+                          </div>
+                        </div>
+
+                        <div class="responsive">
+                             <div class="gallery">
+                                  <a target="_blank" href="/bootstrapsite/simpleark.html">
+                                    <img src="img\\jsark.jpg" alt="Mountains" width="600" height="400">
+                                  </a>
+                              <div class="desc">Arkanoid game, using Canvas and JavaScript</div>
+                           </div>
+                        </div>
+
+                        <div class="responsive">
+                                <div class="gallery">
+                                     <a target="_blank" href="/bootstrapsite/unemplratemay2017.html">
+                                       <img src="img\\python.jpg" alt="Mountains" width="600" height="400">
+                                     </a>
+                                 <div class="desc">Canada unemployment rate may - june 2017, using Jupyter Notebook, Python</div>
+                              </div>
+                        </div>
+                        
+                        <div class="clearfix"></div>
+                        
+                        <div style="padding:6px;">
+                          <p>.</p>
+                          <p>.</p>
+                        </div>
+        
+        </div>  
+
+        <footer class="container-fluid text-center" style="margin-top:50px">
+            &copy 2016 VSH
+        </footer>  
+    
+    </body>
+</html>
